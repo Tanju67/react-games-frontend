@@ -1,0 +1,13 @@
+.scoreBox {
+  align-items: flex-start;
+  flex: 1;
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6rem;
+  font-size: 3rem;
+  color: #fff;
+  font-family: "Indie Flower", cursive;
+}

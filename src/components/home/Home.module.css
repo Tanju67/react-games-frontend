@@ -1,0 +1,31 @@
+.home {
+  display: flex;
+  color: #e6e6e6;
+}
+
+.textBox {
+  flex: 1;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.imgBox {
+  flex: 1;
+  padding: 4rem;
+}
+
+.imgBox img {
+  width: 100%;
+}
+
+.home button {
+  transition: all 0.3s;
+}
+
+.home button:hover {
+  background-color: #aa9114;
+}

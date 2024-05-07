@@ -1,0 +1,49 @@
+.navBar {
+  height: 14vh;
+  background-color: #ffe047;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 1rem 3rem;
+}
+.logoBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuBox {
+  display: flex;
+  gap: 2rem;
+  font-size: 2rem;
+  align-self: stretch;
+  align-items: center;
+}
+.menuBox li a {
+  transition: all 0.3s;
+  padding: 1rem;
+}
+
+.menuBox li:hover a {
+  background-color: black;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  gap: 1rem;
+  font-family: "Indie Flower", cursive;
+  font-weight: bold;
+}
+
+.logoBox svg {
+  font-size: 5rem;
+}
+
+.active {
+  border-bottom: 4px solid #000;
+}

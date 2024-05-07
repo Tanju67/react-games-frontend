@@ -1,0 +1,42 @@
+.formControl {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-bottom: 1rem;
+  height: 7rem;
+  margin-bottom: 2rem;
+}
+
+.formControl input {
+  padding: 0.6rem 1rem;
+  outline: none;
+}
+
+.formControl input::placeholder {
+  color: #888;
+  font-size: 1.2rem;
+}
+
+.formControl label {
+  font-weight: bold;
+}
+
+.formControl .error {
+  color: red;
+  font-size: 1.2rem;
+  text-align: start;
+}
+
+.formControl.invalid label {
+  color: red;
+}
+
+.formControl.invalid input,
+.invalid textarea {
+  background-color: rgb(243, 204, 204);
+  border: 1px solid red;
+}
+
+.formControl.invalid input::placeholder {
+  color: #fff;
+}

@@ -1,0 +1,157 @@
+.header {
+  width: 120px;
+  height: 120px;
+  background-color: #666;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.25);
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  background: #333 linear-gradient(to right, transparent 50%, var(--clr) 0);
+}
+.name {
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 5px;
+  text-transform: capitalize;
+}
+
+.score {
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  font-size: 2rem;
+}
+
+.header::before {
+  content: "";
+  display: block;
+  height: 100%;
+  border-radius: 0 100% 100% 0/50%;
+  margin-left: 50%;
+  transform-origin: left;
+  background-color: var(--clr);
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  background-color: #222;
+  inset: 10px;
+  border-radius: 50%;
+}
+
+.header::before {
+  background-color: var(--clr);
+  /* transform: rotate(calc((var(--i) - 50) * 0.01turn)); */
+  transform: rotate(calc((var(--i) - 50) * 0.01turn));
+  transition: all 3s;
+}
+
+/*if value is less than 50*/
+
+.header.less::before {
+  background-color: #333;
+  transform: rotate(calc((var(--i)) * 0.01turn));
+  transition: all 3s;
+}
+
+.header--0 {
+  background: #333 linear-gradient(to right, transparent 50%, var(--clr0) 0);
+}
+
+.header--1 {
+  background: #333 linear-gradient(to right, transparent 50%, var(--clr1) 0);
+}
+.header--2 {
+  background: #333 linear-gradient(to right, transparent 50%, var(--clr2) 0);
+}
+.header--3 {
+  background: #333 linear-gradient(to right, transparent 50%, var(--clr3) 0);
+}
+.header--4 {
+  background: #333 linear-gradient(to right, transparent 50%, var(--clr4) 0);
+}
+.header--5 {
+  background: #333 linear-gradient(to right, transparent 50%, var(--clr5) 0);
+}
+
+.header--0::before {
+  background-color: var(--clr0);
+  /* transform: rotate(calc((var(--i) - 50) * 0.01turn)); */
+  transform: rotate(calc((var(--i) - 50) * 0.01turn));
+  transition: all 3s;
+}
+.header--1::before {
+  background-color: var(--clr1);
+  /* transform: rotate(calc((var(--i) - 50) * 0.01turn)); */
+  transform: rotate(calc((var(--i) - 50) * 0.01turn));
+  transition: all 3s;
+}
+.header--2::before {
+  background-color: var(--clr2);
+  /* transform: rotate(calc((var(--i) - 50) * 0.01turn)); */
+  transform: rotate(calc((var(--i) - 50) * 0.01turn));
+  transition: all 3s;
+}
+.header--3::before {
+  background-color: var(--clr3);
+  /* transform: rotate(calc((var(--i) - 50) * 0.01turn)); */
+  transform: rotate(calc((var(--i) - 50) * 0.01turn));
+  transition: all 3s;
+}
+.header--4::before {
+  background-color: var(--clr4);
+  /* transform: rotate(calc((var(--i) - 50) * 0.01turn)); */
+  transform: rotate(calc((var(--i) - 50) * 0.01turn));
+  transition: all 3s;
+}
+.header--5::before {
+  background-color: var(--clr5);
+  /* transform: rotate(calc((var(--i) - 50) * 0.01turn)); */
+  transform: rotate(calc((var(--i) - 50) * 0.01turn));
+  transition: all 3s;
+}
+
+.header--0.less::before {
+  background-color: #333;
+  transform: rotate(calc((var(--i)) * 0.01turn));
+  transition: all 3s;
+}
+
+.header--1.less::before {
+  background-color: #333;
+  transform: rotate(calc((var(--i)) * 0.01turn));
+  transition: all 3s;
+}
+
+.header--2.less::before {
+  background-color: #333;
+  transform: rotate(calc((var(--i)) * 0.01turn));
+  transition: all 3s;
+}
+.header--3.less::before {
+  background-color: #333;
+  transform: rotate(calc((var(--i)) * 0.01turn));
+  transition: all 3s;
+}
+.header--4.less::before {
+  background-color: #333;
+  transform: rotate(calc((var(--i)) * 0.01turn));
+  transition: all 3s;
+}
+.header--5.less::before {
+  background-color: #333;
+  transform: rotate(calc((var(--i)) * 0.01turn));
+  transition: all 3s;
+}

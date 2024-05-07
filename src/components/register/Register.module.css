@@ -1,0 +1,48 @@
+.register {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+
+.registerForm {
+  background-color: #666;
+  box-shadow: 0 0 10px rgba(102, 102, 102, 0.5);
+
+  width: 40%;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerForm h2,
+p {
+  text-align: center;
+}
+
+.registerForm p {
+  margin-bottom: 1.5rem;
+}
+
+.registerForm button {
+  transition: all 0.3s;
+}
+
+.registerForm button:hover {
+  background-color: #aa9114;
+}
+
+.registerForm button.invalid {
+  background-color: #333;
+  color: #fff;
+}
+
+.registerForm a {
+  text-decoration: underline;
+  transition: all 0.3s;
+}
+
+.registerForm a:hover {
+  color: red;
+}

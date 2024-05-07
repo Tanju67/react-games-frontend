@@ -1,0 +1,21 @@
+.gameActions {
+  position: absolute;
+  top: 3rem;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.gameActions input {
+  padding: 1rem 0;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  font-size: 2rem;
+}
+
+.btn {
+  border-radius: 0;
+  font-family: "Indie Flower", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+}

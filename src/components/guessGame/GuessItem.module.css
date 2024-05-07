@@ -1,0 +1,43 @@
+.gameCard {
+  width: 34rem;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+}
+
+.gameCard div {
+  background-color: #666;
+  height: 20rem;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  border-radius: 50%;
+}
+
+.gameCard div span {
+  background-color: #222;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.gameCard .active {
+  background-color: red;
+}
+
+.gameCard .activeMsg {
+  position: absolute;
+  background-color: #fff;
+  top: 1rem;
+  padding: 0.5rem 1rem;
+}

@@ -1,0 +1,27 @@
+.rules-modal {
+  padding: 4rem;
+}
+
+.rules-modal h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: "Rubik Dirt", cursive;
+}
+.rules-modal ol {
+  margin: 0 20px;
+  font-family: "Shadows Into Light", cursive;
+}
+.rules-modal ol li {
+  margin-bottom: 7px;
+}
+
+.rules-modal button {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}

@@ -1,0 +1,75 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 50px;
+}
+
+.button-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+  position: relative;
+  height: 80vh;
+}
+
+.diceBox {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -70%);
+  width: 250px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.dice {
+  width: 100px;
+  height: 100px;
+}
+
+.diceBox .mainRollBtn.active {
+  background-color: #ffe047;
+}
+
+.diceBox .mainRollBtn {
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: #666;
+  width: 250px;
+  font-size: 16px;
+}
+
+.game .rules {
+  width: 80%;
+  height: min-content;
+}
+
+.button-box a {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.button-box svg {
+  color: #fff;
+  width: 4rem;
+  height: 4rem;
+  transition: all 0.3s;
+}
+
+.button-box svg:hover {
+  width: 5rem;
+  height: 5rem;
+}

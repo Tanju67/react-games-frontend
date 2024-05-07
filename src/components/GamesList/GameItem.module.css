@@ -1,0 +1,24 @@
+.gameCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #e6e6e6;
+  width: 45%;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgBox {
+  width: 100%;
+}
+
+.imgBox img {
+  width: 100%;
+}
+
+.textBox {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

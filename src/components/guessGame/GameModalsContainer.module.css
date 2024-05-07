@@ -1,0 +1,18 @@
+.guessModal {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem;
+}
+
+.guessModal h2 {
+  margin-bottom: 2rem;
+}
+
+.guessModal button {
+  margin-top: 2rem;
+  font-family: "Indie Flower", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+}

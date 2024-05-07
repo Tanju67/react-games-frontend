@@ -1,0 +1,17 @@
+.gameCards {
+  position: absolute;
+  top: 0;
+  width: 900%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.name {
+  color: #fff;
+  position: absolute;
+  top: 1rem;
+  left: 5rem;
+  font-size: 3rem;
+}

@@ -1,0 +1,15 @@
+.modal {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.modal h2 {
+  text-transform: uppercase;
+}
+.btn-container {
+  display: flex;
+  gap: 2rem;
+}

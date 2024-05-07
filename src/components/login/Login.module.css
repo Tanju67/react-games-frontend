@@ -1,0 +1,54 @@
+.login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+
+.loginForm {
+  background-color: #666;
+  box-shadow: 0 0 10px rgba(102, 102, 102, 0.5);
+
+  width: 40%;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm h2,
+p {
+  text-align: center;
+}
+
+.loginForm p {
+  margin-bottom: 1.5rem;
+}
+
+.loginForm button {
+  transition: all 0.3s;
+}
+
+.loginForm button:hover {
+  background-color: #aa9114;
+}
+
+.loginForm button.invalid {
+  background-color: #333;
+  color: #fff;
+}
+
+.loginForm a {
+  text-decoration: underline;
+  transition: all 0.3s;
+}
+
+.loginForm a:hover {
+  color: red;
+}
+
+.errorMsg {
+  margin-top: 2rem;
+  background-color: red;
+  color: #fff;
+}
