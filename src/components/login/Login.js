@@ -12,9 +12,9 @@ function Login() {
   const { onLogin } = useContext(AuthContext);
   const navigate = useNavigate();
   const [inputHandler, formState] = useForm({
-    email: { value: "", isValid: false },
-    password: { value: "", isValid: false },
-    isValid: false,
+    email: { value: "test@mail.com", isValid: true },
+    password: { value: "secret123", isValid: true },
+    isValid: true,
   });
 
   const submitHandler = async (e) => {
@@ -62,6 +62,8 @@ function Login() {
           errorMsg="Please enter a valid email!"
           onInput={inputHandler}
           validators={[VALIDATOR_EMAIL()]}
+          value={formState.email.value}
+          valid={formState.email.isValid}
         />
 
         <Input
@@ -73,6 +75,8 @@ function Login() {
           errorMsg="Please enter a valid password!"
           onInput={inputHandler}
           validators={[VALIDATOR_MINLENGTH(6)]}
+          value={formState.password.value}
+          valid={formState.password.isValid}
         />
 
         <Button className={formState.isValid ? "" : classes.invalid}>
